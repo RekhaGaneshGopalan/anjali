@@ -1,0 +1,12 @@
+/* banner image */
+.container {
+  position: relative;
+  text-align: center;
+}
+/* banner image */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-weight: bold;
+}

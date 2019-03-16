@@ -1,0 +1,191 @@
+/* footer 1* Follow us for more inspiration*/
+
+       /* variables */
+ 
+@background-color_1:#80be41;
+@background-color_2:#00703c;
+@width:500px;
+@height:700px;
+@font-family:sans-serif;
+@border:100px;
+@padding:20px;
+
+   /* mixins */
+
+.disp
+{
+  display:block;
+}
+.li1
+{
+  lineheight:3px;
+}
+.li2
+{
+  lineheight:20px;
+}
+.ml
+{ 
+ margin-left:0.1px;
+}
+.fbad
+{
+ text-align:center;
+ font-family:@font-family;
+ font-size:18px;
+ font-weight:bold; 
+ font-style: normal;
+ color: white;
+ background-color:#00703c;
+}
+.fbed
+{
+ .li2();
+ .disp();
+ font-family:@font-family;
+ font-size:18px;
+ font-weight: lighter;
+ font-style: normal;
+ color: white;
+ background-color:@background-color_2;
+ height:@height - 600px;
+ border:@border;
+ padding:@padding+40px;
+ margin-top:25px;
+}
+
+ /* styles */ 
+
+.footer1 
+{
+  
+  width:@width + 789px;
+  height:@height + 500px;
+  background-color:@background-color_1;
+}
+.follow 
+{
+ font-family:@font-family;
+ text-align:center;
+ color:white;
+ font-size:32px;
+ font-weight: bold;
+ font-style: normal;
+}
+.merge1     
+{
+ 
+ .disp();
+ width:@width + 100px;
+ height:@height + 70px;
+ margin-left:170px;
+ float:left;
+}
+
+
+
+.fba       /* Like us on facebook */
+ {
+ .fbad();
+ .ml();
+ height:@height - 659px;
+ width:@width - 135px;
+ padding:@padding - 2px;
+ margin:-1px;
+}
+.m2 
+{
+
+  margin-top:23px;
+  .disp();  
+}
+.fb1      /* like us on insta image */
+{
+  
+ margin-right:400px;
+ margin-top:1px;
+}
+.fbb   /* like us on insta text */
+{
+  .fbad();
+  .li1();
+  .ml();
+  height:@height - 633px;
+  width:@width - 94px;
+  margin:-2px;
+  margin-top:2px;
+  
+}
+.merge2    
+{
+ float:right;
+ position:absolute;
+ right:77px;
+ width:@width+100px;
+ .disp();
+}
+ .fb3   /* checkout leapfrog academy image */
+{
+ width:@width - 169px;
+ height:@height - 513px;
+}
+
+ /* checkout leapfrog academy text */
+
+.fbc  
+{
+ .fbad();
+ .disp();
+ .li2();
+ 
+ height:@height - 601px;
+ width:@width - 395px;
+ border:@border;
+ padding:@padding+25px;
+ margin:33px;
+ margin-left:331px;
+ margin-top:-188px;
+}
+.m4   
+{
+  .disp();
+  margin-bottom:200px;
+  width:@width + 50px;
+  height:@height - 522px;
+}
+
+.fbd  /* subsribe us on youtube text */
+{
+  .fbad();
+  .li1();
+  height:@height - 642px;
+  width:@width + 24px;
+  margin-bottom:-189px;
+  margin-left:0px;
+  
+}
+.m5 
+ {  
+   margin-right:300px;
+   .disp();    
+ }  
+
+        /* check us out on pinterest text */
+
+
+ 
+.fbe     
+{
+ .fbed();
+ width:@width - 360px; 
+}
+
+      /* find us on twitter */
+
+.fbf    
+{
+ .fbed();
+ width:@width - 380px;
+ margin-top:20px;
+}
+

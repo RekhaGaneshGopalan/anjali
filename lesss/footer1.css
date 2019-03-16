@@ -1,0 +1,183 @@
+/* footer 1* Follow us for more inspiration*/
+/* variables */
+/* mixins */
+.disp {
+  display: block;
+}
+.li1 {
+  lineheight: 3px;
+}
+.li2 {
+  lineheight: 20px;
+}
+.ml {
+  margin-left: 0.1px;
+}
+.fbad {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  background-color: #00703c;
+}
+.fbed {
+  lineheight: 20px;
+  display: block;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: normal;
+  color: white;
+  background-color: #00703c;
+  height: 100px;
+  border: 100px;
+  padding: 60px;
+  margin-top: 25px;
+}
+/* styles */
+.footer1 {
+  width: 1289px;
+  height: 1200px;
+  background-color: #80be41;
+}
+.follow {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+}
+.merge1 {
+  display: block;
+  width: 600px;
+  height: 770px;
+  margin-left: 170px;
+  float: left;
+}
+.fba {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  background-color: #00703c;
+  margin-left: 0.1px;
+  height: 41px;
+  width: 365px;
+  padding: 18px;
+  margin: -1px;
+}
+.m2 {
+  margin-top: 23px;
+  display: block;
+}
+.fb1 {
+  margin-right: 400px;
+  margin-top: 1px;
+}
+.fbb {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  background-color: #00703c;
+  lineheight: 3px;
+  margin-left: 0.1px;
+  height: 67px;
+  width: 406px;
+  margin: -2px;
+  margin-top: 2px;
+}
+.merge2 {
+  float: right;
+  position: absolute;
+  right: 77px;
+  width: 600px;
+  display: block;
+}
+.fb3 {
+  width: 331px;
+  height: 187px;
+}
+/* checkout leapfrog academy text */
+.fbc {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  background-color: #00703c;
+  display: block;
+  lineheight: 20px;
+  height: 99px;
+  width: 105px;
+  border: 100px;
+  padding: 45px;
+  margin: 33px;
+  margin-left: 331px;
+  margin-top: -188px;
+}
+.m4 {
+  display: block;
+  margin-bottom: 200px;
+  width: 550px;
+  height: 178px;
+}
+.fbd {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  background-color: #00703c;
+  lineheight: 3px;
+  height: 58px;
+  width: 524px;
+  margin-bottom: -189px;
+  margin-left: 0px;
+}
+.m5 {
+  margin-right: 300px;
+  display: block;
+}
+/* check us out on pinterest text */
+.fbe {
+  lineheight: 20px;
+  display: block;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: normal;
+  color: white;
+  background-color: #00703c;
+  height: 100px;
+  border: 100px;
+  padding: 60px;
+  margin-top: 25px;
+  width: 140px;
+}
+/* find us on twitter */
+.fbf {
+  lineheight: 20px;
+  display: block;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: normal;
+  color: white;
+  background-color: #00703c;
+  height: 100px;
+  border: 100px;
+  padding: 60px;
+  margin-top: 25px;
+  width: 120px;
+  margin-top: 20px;
+}

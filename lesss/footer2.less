@@ -1,0 +1,129 @@
+/* final footer*/
+
+          /* variables */
+
+@font-size:10px;
+@margin-left:100px;
+
+           /* mixins */
+.disp
+ {
+  display:inline;
+ }
+.ml1
+ {
+  margin-left:20px;
+ }
+.border
+{
+  border-left:1px solid grey;
+}
+.clr
+ {
+  color:white;
+ }
+.ulall
+{
+  font-size:14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-family:sans-serif;
+  list-style-type:none;
+  color: green;
+  text-align:left;
+  line-height:25px;
+}
+
+             /* styles */
+footer  
+{
+  .clr();
+}
+.icon
+ {
+   margin-left:@margin-left+30px;
+}
+.merge  
+{
+  background-color:.clr();
+  display:flex;
+}
+
+/* for 1st unordered list */ 
+
+
+.ul 
+ {
+  .ulall();
+  margin-left:@margin-left - 10px;
+  
+  
+ }
+
+/* for all the list items */ 
+
+.about   
+ { 
+   
+   font-family: sans-serif;
+   font-size: @font-size+5px;
+   font-weight: lighter;
+   font-style: normal;
+   color: green;
+}
+.ul1
+  {
+  .ulall();
+  .ml1();
+  .border();
+ }
+.ul2
+{
+ .ulall();
+ .ml1();
+ .border();
+}
+.imgg  
+ {
+  .disp();
+ }
+
+   /* for like us on facebook button */
+
+.but  
+ {
+  .disp();
+  .clr();
+  font-size:@font-size+2px;
+  height:20px;
+  border-radius:3px;
+  background:#4267b2;
+  border: 1px solid #4267b2
+ }
+
+
+.final 
+ {
+  .ulall();
+  font-size:@font-size+6px;
+  
+}
+
+/* email boxes*/
+
+.email   
+ {
+ .disp();
+ width:20px;
+ height:auto;
+}
+
+ /* check boxes*/
+
+.check 
+{
+ .ulall();
+ line-height:20px;
+ font-size:@font-size+3px;
+ 
+}

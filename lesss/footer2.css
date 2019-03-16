@@ -1,0 +1,123 @@
+/* final footer*/
+/* variables */
+/* mixins */
+.disp {
+  display: inline;
+}
+.ml1 {
+  margin-left: 20px;
+}
+.border {
+  border-left: 1px solid grey;
+}
+.clr {
+  color: white;
+}
+.ulall {
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: sans-serif;
+  list-style-type: none;
+  color: green;
+  text-align: left;
+  line-height: 25px;
+}
+/* styles */
+footer {
+  color: white;
+}
+.icon {
+  margin-left: 130px;
+}
+.merge {
+  background-color: [object Object];
+  display: flex;
+}
+/* for 1st unordered list */
+.ul {
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: sans-serif;
+  list-style-type: none;
+  color: green;
+  text-align: left;
+  line-height: 25px;
+  margin-left: 90px;
+}
+/* for all the list items */
+.about {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  font-style: normal;
+  color: green;
+}
+.ul1 {
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: sans-serif;
+  list-style-type: none;
+  color: green;
+  text-align: left;
+  line-height: 25px;
+  margin-left: 20px;
+  border-left: 1px solid grey;
+}
+.ul2 {
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: sans-serif;
+  list-style-type: none;
+  color: green;
+  text-align: left;
+  line-height: 25px;
+  margin-left: 20px;
+  border-left: 1px solid grey;
+}
+.imgg {
+  display: inline;
+}
+/* for like us on facebook button */
+.but {
+  display: inline;
+  color: white;
+  font-size: 12px;
+  height: 20px;
+  border-radius: 3px;
+  background: #4267b2;
+  border: 1px solid #4267b2;
+}
+.final {
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: sans-serif;
+  list-style-type: none;
+  color: green;
+  text-align: left;
+  line-height: 25px;
+  font-size: 16px;
+}
+/* email boxes*/
+.email {
+  display: inline;
+  width: 20px;
+  height: auto;
+}
+/* check boxes*/
+.check {
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: sans-serif;
+  list-style-type: none;
+  color: green;
+  text-align: left;
+  line-height: 25px;
+  line-height: 20px;
+  font-size: 13px;
+}

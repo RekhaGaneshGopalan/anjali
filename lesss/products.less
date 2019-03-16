@@ -1,0 +1,162 @@
+ 
+/* variables */
+
+@color_1:#006232;
+@color_2:green;
+@color_3:#868686;
+@margin-left:120px;
+@font-family:arial;
+@color_4:white;
+@border:10px;
+@margin:20px;
+@font-weight:lighter;
+@text-align:center;
+@font-style:normal;
+@font-size:20px;
+@width:150px;
+@height:90px;
+
+
+/* New products */
+    
+.line-height
+{
+ line-height:25px;
+}
+.h4  /* popular products ,  shop by age , shop by category text */
+{
+ 
+ font-size:@font-size + 4px;
+ margin-left:120px;  
+ color:@color_1;
+ font-weight:bold;
+}
+
+.h2
+{
+
+font-size:@font-size + 4px;
+margin-left:@margin-left;  
+color:@color_1;
+font-weight:bold;
+}
+ .h3    
+ {
+ margin-left:@margin-left;
+ color:@color_2;
+}
+.sty  
+{
+ text-indent:@border;
+ font-size:@font-size;
+ font-family:@font-family;
+ .line-height();
+ text-align:@text-align;
+ font-weight:font-weight;
+ font-style: @font-style;
+ color: @color_3;
+}
+
+
+
+
+       /* popular products*/
+
+
+ .h5  /* view all */
+ {
+ margin-left:@margin-left;
+ color:@color_2;
+}
+.at   
+{
+ margin-left:@margin-left - 70px;
+}
+.ar  
+{
+ margin-left:@margin-left - 40px;
+}
+.arr 
+{
+ font-size:@font-size;
+ font-family:@font-family;
+ .line-height();
+ text-align:@text-align;
+ font-weight: @font-weight;
+ font-style: @font-style;
+ color: @color_3;
+}
+
+
+
+ /* shop by age */
+
+/* mixin */
+
+.tt1-5
+{
+  font-family:sans-serif;
+  font-size:@font-size - 1px;  
+  color:@color_4;
+  width:@width;
+  height:@height;
+  border: @border;
+  padding:@margin - 10px;
+  margin:@margin;
+  text-align:@text-align;
+}
+  
+/* styles */
+.tt1 
+{
+ background-color:orange; 
+ .tt1-5();
+}  
+  
+.tt2   
+{
+  background-color:#FF69B4;
+  .tt1-5();
+}
+.tt3   
+{
+  background-color:#0000FF;
+  .tt1-5();
+}
+.tt4   
+{ 
+  background-color:#008000;
+  .tt1-5();
+}
+.tt5   
+{
+  background-color:#9932CC;
+  .tt1-5();
+}
+.p   
+ {
+  padding:@border - 5px;
+ }
+
+    /* shop by category*/
+
+.sp1 
+{
+ margin-left:@margin-left - 100px;
+}
+.ta 
+{
+  font-size:@font-size - 1px;
+  background-color:@color_2;
+  color:@color_4;
+  width:@width - 30px;
+  height:@height - 60px;
+  border: @border;
+  padding:@margin;
+  margin:@margin;
+}
+
+
+
+
+
